@@ -1,0 +1,28 @@
+title: iSH
+email: tbodt@ish.app
+description: >-
+  iSH is a project to get a Linux shell environment running locally on your iOS device, using a usermode x86 emulator.
+url: "https://ish.app"
+baseurl: ""
+permalink: "/blog/:title"
+
+links:
+    discord: "https://discord.gg/iSH" # "https://discord.gg/HFAXj44"
+    github: "https://github.com/ish-app/ish"
+    testflight: "https://testflight.apple.com/join/97i7KM8O"
+    reddit: "https://ish.reddit.com"
+    twitter: "https://twitter.com/iSH_app"
+    altstore: "altstore://source?url=https://ish.app/altstore.json"
+    appstore: "https://apps.apple.com/us/app/ish-shell/id1436902243"
+    patreon: "https://patreon.com/tbodt"
+
+repository: ish-app/ish # for jekyll/github-metadata
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+include:
+  - _redirects # for netlify
+  - .well-known
